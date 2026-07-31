@@ -1,3 +1,5 @@
+Showcase: https://www.youtube.com/watch?v=Gfg_pjXKsPM
+
 # Ms-Adminmenu
 
 Plug-and-play, server-authoritative administration resource for FiveM. It includes
