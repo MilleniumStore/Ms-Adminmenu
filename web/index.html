@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Millennium Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app" class="app" aria-hidden="true">
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">M</span><span class="brand-copy"><b>MILLENNIUM</b><small>CONTROL CENTRE</small></span></div>
+        <nav id="nav"></nav>
+        <div class="staff-card">
+          <span class="status-dot"></span>
+          <div><b id="role">Staff</b><small id="duty-label">Off duty</small></div>
+          <button id="duty" class="icon-button" title="Toggle duty">◉</button>
+        </div>
+      </aside>
+      <section class="workspace">
+        <header>
+          <div><p class="eyebrow" id="breadcrumb">OVERVIEW</p><h1 id="title">Command Dashboard</h1></div>
+          <div class="header-actions">
+            <div class="connection"><i></i><span id="server-name">Server online</span></div>
+            <button id="search-button" class="search"><span>⌕</span> Search commands <kbd>Ctrl K</kbd></button>
+            <button id="refresh" class="icon-button" title="Refresh">↻</button>
+            <button id="close" class="icon-button" title="Close">×</button>
+          </div>
+        </header>
+        <div id="content" class="content"></div>
+      </section>
+    </div>
+    <div class="build-label">MILLENNIUM ADMIN · SECURE SESSION</div>
+  </main>
+  <div id="modal-root"></div>
+  <div id="announcement" class="announcement" role="alert" aria-live="assertive">
+    <div class="announcement-icon">M</div>
+    <div class="announcement-copy">
+      <div class="announcement-label"><small>OFFICIAL SERVER ANNOUNCEMENT</small><span>LIVE</span></div>
+      <p id="announcement-message"></p>
+    </div>
+    <div class="announcement-glow"></div>
+    <div class="announcement-timer"></div>
+  </div>
+  <div id="staff-warning" class="staff-warning" role="alert" aria-live="assertive">
+    <div class="warning-vignette"></div>
+    <div class="warning-panel">
+      <div class="warning-symbol">!</div>
+      <small>ADMINISTRATIVE WARNING</small>
+      <h2>You have received a staff warning</h2>
+      <p id="staff-warning-message"></p>
+      <span>Please follow the server rules.</span>
+    </div>
+    <div class="warning-progress"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
