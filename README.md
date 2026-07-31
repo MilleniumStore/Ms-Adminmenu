@@ -1,5 +1,3 @@
-Our Tebex : https://millenium.tebex.store/
-Join our discord for support : (https://discord.gg/EM4uF7Wfen)
 # Ms-Adminmenu
 
 Plug-and-play, server-authoritative administration resource for FiveM. It includes
